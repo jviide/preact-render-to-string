@@ -12,7 +12,7 @@ const SHALLOW = { shallow: true };
 
 // components without names, kept as a hash for later comparison to return consistent UnnamedComponentXX names.
 const UNNAMED = [];
-const _skipEffects = "__s";
+const _skipEffects = '__s';
 
 const VOID_ELEMENTS = /^(area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)$/;
 
